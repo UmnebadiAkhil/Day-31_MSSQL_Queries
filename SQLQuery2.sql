@@ -38,3 +38,22 @@
 
   select * from Employee_PayRoll_Service 
 
+ --UC 7 To Find Sum,Avg,Min,Max & Count By gender wise
+
+  SELECT SUM(Salary) as MaleSalarySum From Employee_PayRoll_Service where gender = 'M' GROUP BY gender;
+  SELECT SUM(Salary) as FemaleSalarySum From Employee_PayRoll_Service where gender = 'F' GROUP BY gender;
+  
+  SELECT AVG(Salary) as MaleSalarySum From Employee_PayRoll_Service where gender = 'M' GROUP BY gender;
+  SELECT AVG(Salary) as FemaleSalarySum From Employee_PayRoll_Service where gender = 'F' GROUP BY gender;
+
+  SELECT MIN(Salary) as MaleSalarySum From Employee_PayRoll_Service where gender = 'M' GROUP BY gender;
+  SELECT MIN(Salary) as FemaleSalarySum From Employee_PayRoll_Service where gender = 'F' GROUP BY gender;
+  
+  SELECT MAX(Salary) as MaleSalarySum From Employee_PayRoll_Service where gender = 'M' GROUP BY gender;
+  SELECT MAX(Salary) as FemaleSalarySum From Employee_PayRoll_Service where gender = 'F' GROUP BY gender;
+
+  SELECT COUNT(Salary) as MaleCOUNT From Employee_PayRoll_Service where gender = 'M' GROUP BY gender;
+  SELECT COUNT(Salary) as FemaleCOUNT From Employee_PayRoll_Service where gender = 'F' GROUP BY gender;
+
+  select * from Employee_PayRoll_Service
+  
