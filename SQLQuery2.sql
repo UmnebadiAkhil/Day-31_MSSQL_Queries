@@ -14,3 +14,9 @@
    PRIMARY KEY (Id)
   )
   DROP TABLE Employee_PayRoll_Service
+
+  --UC 3  Inserted data
+ INSERT INTO Employee_PayRoll_Service(Name,Salary,Start) values
+ ('Bill', 150000, '2018-01-03'),
+ ('Terisa', 200000, '2019-11-13'),
+ ('Charlie', 500000, '2020-05-21')
