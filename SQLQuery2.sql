@@ -57,3 +57,14 @@
 
   select * from Employee_PayRoll_Service
   
+  
+  --UC 8 TO Add ColumnS & Set Respective Data
+  Alter table Employee_PayRoll_Service add 
+  PhoneNo int,
+  OfficeAddress varchar(50) not null default 'Pune',
+  Department varchar(50) Not null default 'Administrative';
+
+  
+  UPDATE Employee_PayRoll_Service SET officeAddress = 'Mumbai' WHERE Name='Bill';
+
+  
