@@ -20,3 +20,6 @@
  ('Bill', 150000, '2018-01-03'),
  ('Terisa', 200000, '2019-11-13'),
  ('Charlie', 500000, '2020-05-21')
+
+ --UC 4 Ability to retrieve all the employee payroll data that is added to payroll service database
+ SELECT * FROM Employee_PayRoll_Service
